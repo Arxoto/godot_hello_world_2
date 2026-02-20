@@ -1,0 +1,14 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.1
+reloadable = true
+
+[libraries]
+linux.debug.x86_64 =     "res://framework/rust_engine_frame/target/debug/librust_engine_frame.so"
+linux.release.x86_64 =   "res://addons/rust_engine_frame/bin/release/librust_engine_frame.so"
+windows.debug.x86_64 =   "res://framework/rust_engine_frame/target/debug/rust_engine_frame.dll"
+windows.release.x86_64 = "res://addons/rust_engine_frame/bin/release/rust_engine_frame.dll"
+macos.debug =            "res://framework/rust_engine_frame/target/debug/librust_engine_frame.dylib"
+macos.release =          "res://addons/rust_engine_frame/bin/release/librust_engine_frame.dylib"
+macos.debug.arm64 =      "res://framework/rust_engine_frame/target/debug/librust_engine_frame.dylib"
+macos.release.arm64 =    "res://addons/rust_engine_frame/bin/release/librust_engine_frame.dylib"
