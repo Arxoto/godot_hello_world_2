@@ -1,0 +1,3 @@
+[submodule "framework/rust_engine_frame"]
+	path = framework/rust_engine_frame
+	url = git@github.com:Arxoto/rust_engine_frame.git
