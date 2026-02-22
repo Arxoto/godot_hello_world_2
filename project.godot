@@ -14,6 +14,10 @@ config/name="hello_world_2"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+ShaderManager="*uid://dyri6hi26avr7"
+
 [display]
 
 window/size/always_on_top=true
@@ -25,3 +29,10 @@ window/size/always_on_top=true
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+
+[shader_globals]
+
+current_time={
+"type": "float",
+"value": 0.0
+}
