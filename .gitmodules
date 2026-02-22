@@ -1,3 +1,6 @@
 [submodule "framework/rust_engine_frame"]
 	path = framework/rust_engine_frame
 	url = git@github.com:Arxoto/rust_engine_frame.git
+[submodule "framework/godot_utils"]
+	path = framework/godot_utils
+	url = git@github.com:Arxoto/godot_utils.git
