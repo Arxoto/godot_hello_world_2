@@ -1,6 +1,14 @@
 {
     "editor.fontFamily": "WomPunctuationFixed, 'Sarasa Mono SC', WomPunctuationFixed1200, 'Maple Mono NF CN', 'UbuntuMono Nerd Font Propo'",
     "editor.fontLigatures": true,
-    "godotTools.lsp.headless": true,
+    "[gdscript]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false,
+        "editor.detectIndentation": false,
+        "editor.defaultFormatter": "geequlim.godot-tools",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false, // 防止粘贴时自动格式化导致的代码混乱
+    },
     "godotTools.editorPath.godot4": "C:\\Users\\Jesus\\scoop\\apps\\godot\\current\\godot.exe",
+    "godotTools.lsp.headless": true,
 }
