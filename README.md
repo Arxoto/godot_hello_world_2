@@ -67,9 +67,9 @@ project/
 │   └── models/                     # BLEND 源文件
 │
 └── tests/                        # 测试
-    ├── unit/                       # 单元测试（也可放在各个模块下面）
-    ├── integration/                # 集成测试
-    └── performance/                # 性能测试
+	├── unit/                       # 单元测试（也可放在各个模块下面）
+	├── integration/                # 集成测试
+	└── performance/                # 性能测试
 
 ```
 
